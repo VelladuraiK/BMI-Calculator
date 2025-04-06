@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+Body {
+    background-image: linear-gradient(to right, skyblue, yellow, violet, lightgreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.out {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0);
+    max-width: 350px;
+    width: 90;
+}
+
+h1 {
+    color: blue;
+    font-weight: 600;
+}
+p{
+    margin:10px ,0;
+    color:#444;
+}
+Button{
+    
+    color:white;
+    background-color: crimson;
+    padding: 12px;
+    border-radius: 7px;
+    border:none;
+    font-size:17px;
+}
+#id{
+    padding:40px;
+    margin-top: 2px;
+}
